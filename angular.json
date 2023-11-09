@@ -76,6 +76,11 @@
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
+          "configurations": {
+            "headless": {
+              "karmaConfig": "karma.headless.conf.js"
+            }
+          },
           "options": {
             "polyfills": [
               "zone.js",
@@ -89,7 +94,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [],
           }
         }
       }
