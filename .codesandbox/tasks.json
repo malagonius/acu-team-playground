@@ -24,7 +24,7 @@
     },
     "test": {
       "name": "test",
-      "command": "ng test --configuration headless",
+      "command": "ng test --configuration headless-no-sandbox",
       "runAtStart": false
     },
     "help": {
